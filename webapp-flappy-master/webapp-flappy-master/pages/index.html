@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <div class="jumbotron">
+<h1>Flappy Birdy!</h1>
+</div>
+  <link rel ="stylesheet" href ="../assets/style.css"/>
+  <link rel="stylesheet" href="../lib/bootstrap.css"/>
+</head>
+
+<body>
+  <div class="container">
+  <ul>
+    <li class="intro">Welcome to Flappy Bird.</li>
+    <li class="intro">Here will be the game</li>
+    <li class="inst">How to Play:<li/>
+  </ul>
+  <ul>
+   <li class="inst">Press SPACE to flap your wings.</li>
+   <li class="inst">Avoid the pipes.</li>
+   <li class="inst">If you crash, just try again!</li>
+ </ul>
+
+ <div id="game"></div>
+
+ <div class="row">
+   <button type="button" class="btn btn-default" id="scoresbtn">Scores</button>
+   <button type="button" class="btn btn-default" id="creditsbtn">Credits</button>
+   <button type="button" class="btn btn-default" id="helpbtn">Help</button>
+ </div>
+
+ <div>
+   <div id="content"></div>
+ </div>
+
+ <div id="credits">Contributors</div>
+
+ <script type="text/javascript" src="../lib/phaser.min.js"></script>
+ <script type="text/javascript" src="../js/flappy.js"></script>
+ <script type="text/javascript" src="../lib/jquery.js"></script>
+  <script src="../js/interactivity.js"></script>
+
+</div>
+
+
+
+
+
+
+</body>
+</html>
